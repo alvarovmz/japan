@@ -1,0 +1,38 @@
+---
+layout: default
+title: Home
+---
+
+<h1>Japón 2014</h1>
+<p class="message">
+Si es tu primera vez por aquí, échale un vistazo al <a href="/about/">about</a>
+</p>
+
+<div class="posts">
+ {% for post in paginator.posts reversed %}
+      <a href="{{ post.url }}" class="list-group-item">
+        <h1 class="post-title">{{ post.title }}</h1>
+        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time>
+        <div class="prelude">
+          {{ post.content | truncatewords: 40 }}
+        </div>
+      </a>
+  {% endfor %}
+</div>
+
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+  {% else %}
+    <span class="pagination-item older">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+    {% else %}
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="pagination-item newer">Newer</span>
+  {% endif %}
+</div>

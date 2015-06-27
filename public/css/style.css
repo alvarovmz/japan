@@ -1,0 +1,9 @@
+.prelude {
+  text-decoration: none;
+  color: #777;
+  margin-left:20px;
+}
+.prelude h1, h2 {
+  color: #777;
+  font-size:120%;
+}

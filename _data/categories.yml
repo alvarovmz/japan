@@ -1,0 +1,7 @@
+- slug: diario
+  name: Diario
+  color: '#3498db'
+
+- slug: posts
+  name: Posts
+  color: '#3498db'
