@@ -2,6 +2,6 @@
   name: Diario
   color: '#3498db'
 
-- slug: posts
-  name: Posts
+- slug: article
+  name: Article
   color: '#3498db'
