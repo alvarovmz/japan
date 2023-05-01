@@ -6,6 +6,7 @@ description:      'Una historia épica de acción y aventuras en el lejano orien
 paginate: 30
 url:              https://alvarovmz.github.com/japan
 baseurl:          '/'
+relative_url:     '/japan'
 
 author:
   name:           'Alvaro'
