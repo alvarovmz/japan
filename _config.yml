@@ -4,8 +4,8 @@ repository:       alvarovmz/japan
 tagline:          'El viaje'
 description:      'Una historia épica de acción y aventuras en el lejano oriente'
 paginate: 30
-url:              http://hyde.getpoole.com
-baseurl:          /
+url:              https://alvarovmz.github.com/japan
+baseurl:          "/"
 
 author:
   name:           'Alvaro'
