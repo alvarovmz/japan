@@ -5,7 +5,7 @@ tagline:          'El viaje'
 description:      'Una historia épica de acción y aventuras en el lejano oriente'
 paginate: 30
 url:              https://alvarovmz.github.com/japan
-baseurl:          "/"
+baseurl:          '/'
 
 author:
   name:           'Alvaro'
