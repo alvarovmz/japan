@@ -10,7 +10,7 @@ Si es tu primera vez por aquí, échale un vistazo al <a href="/about/">about</a
 
 <div class="posts">
  {% for post in paginator.posts reversed %}
-      <a href="{{ post.url }}" class="list-group-item">
+      <a href="{{ post.url | relative_url }}" class="list-group-item">
         <h1 class="post-title">{{ post.title }}</h1>
         <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b. %d, %Y' }}</time>
         <div class="prelude">
