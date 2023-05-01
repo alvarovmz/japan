@@ -1,26 +1,18 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-relative_permalinks: false
-
 # Setup
 title:            Japón 2014
+repository:       alvarovmz/japan
 tagline:          'El viaje'
 description:      'Una historia épica de acción y aventuras en el lejano oriente'
+paginate: 30
 url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Alvaro'
+  url:            https://twitter.com/alvarovmz
 
-paginate:         30
-
-# Custom vars
-version:          2.1.0
+plugins:
+  - jekyll-paginate
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/alvarovmz/japan
